@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: rgb(0, 0, 0);
+    }
+
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .laber{
+
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+        width: 40%;
+        height: 280px;
+
+border-radius: 30px;
+
+margin-top: 150px;
+
+        background-color: rgb(0, 132, 255);
+
+        /* animation-iteration-count: infinite; */
+        animation-delay: 0.1s;
+        animation-duration: 5s;
+        animation-name: wr;
+    }
+
+    @keyframes wr {
+        0%{
+            width: 100%;
+            
+        }
+        50%{
+            width: 70%;
+            
+          
+        }
+        100%{
+            width: 40%;
+        }
+    }
+
+    h2{
+        margin-top: 25%;
+        font-family: 'Edu TAS Beginner';
+        font-size: 40px;
+        text-align: center;
+        /* color: rgb(43, 19, 148); */
+        color: rgb(255, 255, 255);
+       
+    }
+
+    a{
+        border: none;
+border-radius: 20px ;
+
+color:rgb(0, 132, 255);
+font-family: 'Edu TAS Beginner';
+font-weight: 600;
+font-size: 18px;
+text-align: center;
+text-decoration: none;
+
+margin-top: 10px;
+    padding: 10px 50px ;
+    background: rgb(0, 0, 0);
+
+    box-shadow: 2px 8px 15px 1px #0a000027;
+    }
+
+    @media (max-width : 500px) {
+        .laber{
+            margin-top: 40%;
+            width: 80%;
+            box-shadow: 10px 35px 10px 2px #00000065;
+        }
+
+        
+    @keyframes wr {
+        0%{
+            width: 150%;
+            
+        }
+        50%{
+            width: 90%;
+            
+          
+        }
+        100%{
+            width: 80%;
+        }
+    }
+    }
+</style>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@0;1&family=Black+Ops+One&family=Caveat:wght@400;700&family=Dosis:wght@300;500&family=Edu+TAS+Beginner&family=Josefin+Sans:wght@300;400&family=Noto+Nastaliq+Urdu:wght@400;600&family=Nunito:ital,wght@0,200;1,600&family=Orbitron:wght@500;600&family=Sulphur+Point:wght@300;700&display=swap');
+  </style>
+<body>
+    <div class="container">
+        
+        <div class="laber">
+<h2>COMMING SOON</h2>
+<a href="index.html">BACK</a>
+        </div>
+    </div>
+</body>
+</html>

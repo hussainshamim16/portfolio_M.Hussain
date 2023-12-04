@@ -1,0 +1,298 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+
+
+   
+    background-color: rgb(0, 0, 0);
+}
+
+.io{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: rgb(0, 132, 255);
+    border-radius: 20px;
+
+  padding: 10px 40px;
+    width: 95%;
+
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.ul a{
+    /* margin-left: 792px; */
+    margin-right:  10px;
+
+    color: black;
+
+    text-decoration: none;
+    text-transform: capitalize;
+
+    /* font-family: 'sulphur point'; */
+    font-family: 'Edu TAS Beginner';
+
+
+    
+}
+
+header img{
+    width: 80px;
+}
+/* --------------------2nd */
+.bilko{
+    width: 100%;
+    /* background-color: rgb(32, 32, 32); */
+
+  
+}
+
+.mean{
+display: flex;
+align-items: center;
+justify-content: space-around;
+flex-direction: row;
+
+
+}
+
+.browser{
+    display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+.browser h1{
+    font-size: 40px;
+
+    color: rgb(0, 132, 255);
+    
+    font-family: 'Caveat';
+
+    text-transform: uppercase;
+
+    margin-bottom: 20px;
+}
+
+.browser p {
+    width: 300px;
+
+    font-family: 'Sulphur Point';
+
+    color: white;
+
+    text-align: center;
+
+    margin-bottom: 20px;
+}
+
+.browser a{
+    text-decoration: none;
+
+    border: none;
+    border-radius: 20px ;
+
+    color:rgb(0, 0, 0);
+
+    
+    font-family: 'dosis';
+
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    
+        padding: 10px 50px ;
+        background: #0285ff;
+    
+        box-shadow: 2px 8px 15px 1px #0a000027;
+}
+
+.meanPick{
+    width: 250px;
+
+    border-bottom: 10px solid #2495ff;
+    
+}
+
+/* _________________ 3rd _______ */
+
+.box{
+  
+    margin-top: 95px;
+
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-start;
+    text-align: center;
+
+    
+}
+
+.boxe{
+    width: 300px;
+    background: rgb(0, 0, 0);
+    box-shadow: 2px 8px 15px 1px #0a000027;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 10px;
+   
+}
+
+.gag{
+    width: 120px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+    background-color:rgb(0, 132, 255);
+    border: none;
+    padding: 20px;
+    border-radius: 20%;
+}
+
+.box h2{
+
+    color: rgb(0, 132, 255);
+
+    font-size: 30px;
+    font-family: 'Dosis';
+    text-align: start;
+    letter-spacing: 2px;
+
+    width: 150px;
+    margin-bottom: 20px;
+}
+.box p{
+    color: #ffffffb4;;
+    font-size: 15px;
+    text-align: end;
+    font-family: 'Nunito' ;
+}
+
+/* _____________ footer--- */
+
+.foter{
+    /* border: 1px solid red; */
+}
+
+.foter p{
+
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+    color: rgb(0, 132, 255);
+
+    font-family: 'Orbitron';
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+@media  (max-width: 500px){
+    body{
+       /* background-color: rgb(182, 111, 111); */
+
+    
+    }
+
+    header{
+        flex-direction: column;
+        width: 95%;
+    }
+
+    header img{
+        width: 70px;
+        margin-bottom: 20px;
+    }
+
+    .ul a{
+        font-size: 26px;
+        font-family: 'Edu TAS Beginner';
+    }
+
+    /* ################ 2nd sec */
+
+.mean{
+    flex-direction: column-reverse;
+}
+
+    .browser h1{
+        font-size: 40px;
+
+        
+    }
+
+    .browser p{
+        
+        font-size: 19px;
+        width: 300px;
+        font-weight: 100;
+    }
+    .browser a{
+
+
+        font-size: 19px;
+        /* width: 200px; */
+    }
+
+    .meanPick{
+  width: 250px;
+  margin-bottom: 20px;
+    }
+
+    /* ___________________ 3rd section__ */
+
+    .box{
+
+        margin-top: 150px;
+        flex-direction: column;
+    
+    }
+
+    .boxe{
+        /* border: 1px solid rgb(0, 132, 255); */
+        margin-bottom: 20px;
+
+        width: 90%;
+
+        margin-left: 20px;
+        padding-bottom: 60px;
+       
+    }
+
+    .gag{
+        width: 180px;
+    }
+
+    .box h2{
+        
+        display: block;
+        width: 390px;
+        text-align: center;
+        font-size: 60px;
+    }
+    .box p{
+        text-align: center;
+        font-size: 25px;
+ 
+    }
+
+    .foter p {
+        font-size: 20px;
+    }
+
+}
